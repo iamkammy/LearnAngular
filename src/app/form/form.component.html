@@ -1,0 +1,5 @@
+<form [formGroup]="demoForm" (submit)="submit()">
+  <input type="text" name="" formControlName="username" ><br><br>
+  <input type="password" name="" formControlName="password" ><br><br>
+  <button [disabled]="demoForm.invalid">Submit</button>
+</form>
